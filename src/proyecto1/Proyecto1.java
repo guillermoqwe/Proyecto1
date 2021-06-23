@@ -22,8 +22,6 @@ public class Proyecto1 {
         System.out.print("de que tamaño es el arreglo:");
         tam = sc.nextInt();
         pepe = new Profe1[tam];
-
-        //inicializar cada posicion del arreglo
         for (int i = 0; i < pepe.length; i++) {
             pepe[i] = new Profe1();
         }
@@ -135,7 +133,7 @@ public class Proyecto1 {
                     break;
 
                 case 0:
-                    System.out.println("Gracias por crearme Dios supremo");
+                    System.out.println("GRACIAS,ADIOS");
                     break;
             }
         }
